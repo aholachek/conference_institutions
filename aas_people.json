@@ -2372,7 +2372,7 @@
         "institution": "NYU Abu Dhabi",
         "people": ["Moin, Aquib", "Zaw, Ingyin"]
     },
-    "-77.0484419:38.9000387": {
+    "-122.3080:47.6550": {
         "bibcodes": ["2015AAS...22542206G"],
         "institution": "Department of Astronomy, University of Washington",
         "people": ["Gupta, Pramod", "Connolly, Andrew J.", "Gardner, Jeffrey P."]
@@ -2467,9 +2467,9 @@
         "institution": "Uni. Marie Curie-Sklodowska",
         "people": ["Murawski, Krzysztof"]
     },
-    "-89.125832:32.799721": {
+    "11.6500:48.2500": {
         "bibcodes": ["2015AAS...22521401W", "2015AAS...22520603R", "2015AAS...22544505E", "2015AAS...22532406F"],
-        "institution": "MPE",
+        "institution": "Max-Planck-Institut für extraterrestrische Physik (MPE)",
         "people": ["Salvato, Mara", "Erwin, Peter", "Saglia, Roberto", "Thomas, Jens", "Opitsch, Michael", "Fabricius, Maximilian", "Bender, Ralf", "Williams, Michael John", "Mazzalay, Ximena", "Churazov, Eugene", "Diehl, Roland", "Greiner, Jochen", "von Kienlin, Andreas", "Zhang, Xiao-Ling"]
     },
     "-74.1484904:40.6018152": {

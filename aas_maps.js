@@ -126,6 +126,8 @@
 
                 clearInterval(loopId);
 
+                d3.selectAll(".usa circle").classed("selected", false);
+
                 d3.select(".loop").text("loop").classed("btn-danger", false);
 
 
