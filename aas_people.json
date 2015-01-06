@@ -490,10 +490,11 @@
         "people": ["Silva Aguirre, V\u00edctor", "Jessen-Hansen, Jens", "Brogaard, Karsten", "Grundahl, Frank", "Frandsen, Soren"]
     },
     "-71.1280679:42.3814688": {
-        "bibcodes": ["2015AAS...22540604S", "2015AAS...22534912S", "2015AAS...22512206M", "2015AAS...22514430R", "2015AAS...22523907B", "2015AAS...22511005B", "2015AAS...22543802C", "2015AAS...22521103P", "2015AAS...22532708U", "2015AAS...22533709E", "2015AAS...22534516R", "2015AAS...22542503V", "2015AAS...22541203S", "2015AAS...22540904S", "2015AAS...22514132C", "2015AAS...22544603R", "2015AAS...22542905B", "2015AAS...22525208W", "2015AAS...22514024F", "2015AAS...22514034B", "2015AAS...22525739G", "2015AAS...22530505B", "2015AAS...22524901B", "2015AAS...22514224K", "2015AAS...22513705T", "2015AAS...22534911M", "2015AAS...22534907X", "2015AAS...22542805W", "2015AAS...22540803B", "2015AAS...22525731P", "2015AAS...22541303P", "2015AAS...22543801D", "2015AAS...22514347R", "2015AAS...22543204S", "2015AAS...22525219B", "2015AAS...22514435C", "2015AAS...22545103I", "2015AAS...22530301P", "2015AAS...22544906P", "2015AAS...22532305R", "2015AAS...22525701W", "2015AAS...22525801I", "2015AAS...22513718Z", "2015AAS...22512707F", "2015AAS...22533601G", "2015AAS...22513816M", "2015AAS...22524725J", "2015AAS...22513817N", "2015AAS...22542008K", "2015AAS...22541802P", "2015AAS...22544701S", "2015AAS...22513836L", "2015AAS...22511201D", "2015AAS...22513821W", "2015AAS...22525026S", "2015AAS...22530001P", "2015AAS...22533837M", "2015AAS...22525712B", "2015AAS...22514211Z", "2015AAS...22512806D", "2015AAS...22521404A"],
+        "bibcodes": ["2015AAS...22540604S", "2015AAS...22534912S", "2015AAS...22512206M", "2015AAS...22514430R", "2015AAS...22523907B", "2015AAS...22511005B", "2015AAS...22543802C", "2015AAS...22521103P", "2015AAS...22532708U", "2015AAS...22533709E", "2015AAS...22534516R", "2015AAS...22542503V", "2015AAS...22541203S", "2015AAS...22540904S", "2015AAS...22514132C", "2015AAS...22544603R", "2015AAS...22542905B", "2015AAS...22525208W", "2015AAS...22514024F", "2015AAS...22514034B", "2015AAS...22525739G", "2015AAS...22530505B", "2015AAS...22524901B", "2015AAS...22514224K", "2015AAS...22513705T", "2015AAS...22534911M", "2015AAS...22534907X", "2015AAS...22542805W", "2015AAS...22540803B", "2015AAS...22525731P", "2015AAS...22541303P", "2015AAS...22543801D", "2015AAS...22514347R", "2015AAS...22543204S", "2015AAS...22525219B", "2015AAS...22514435C", "2015AAS...22545103I", "2015AAS...22530301P", "2015AAS...22544906P", "2015AAS...22532305R", "2015AAS...22525701W", "2015AAS...22525801I", "2015AAS...22513718Z", "2015AAS...22512707F", "2015AAS...22533601G", "2015AAS...22513816M", "2015AAS...22524725J", "2015AAS...22513817N", "2015AAS...22542008K", "2015AAS...22541802P", "2015AAS...22544701S", "2015AAS...22513836L", "2015AAS...22511201D", "2015AAS...22513821W", "2015AAS...22525026S", "2015AAS...22530001P", "2015AAS...22533837M", "2015AAS...22525712B", "2015AAS...22514211Z", "2015AAS...22512806D", "2015AAS...22521404A", "2015AAS...22532308C", "2015AAS...22525221G", "2015AAS...22525702V", "2015AAS...22531302H", "2015AAS...22514133D", "2015AAS...22525605L", "2015AAS...22525703B", "2015AAS...22541906S"],
         "institution": "Harvard CFA",
-        "people": ["Lada, Charles J.", "Dunham, Michael", "Cargile, Phillip", "Newton, Elisabeth R.", "Irwin, Jonathan", "Charbonneau, David", "Dittmann, Jason", "Guenther, Hans Moritz", "Auchettl, Katie", "Li, Zequn", "Ashby, Matthew", "Hora, Joseph L.", "Plucinsky, Paul P.", "Torres, Guillermo", "Wolk, Scott J.", "Rose, Marvin", "Elvis, Martin", "Guillochon, James", "Green, Paul J.", "Morganson, Eric", "Asgari-Targhi, Mahboubeh", "Milisavljevic, Dan", "Poppenhaeger, Katja", "Genel, Shy", "Nelson, Dylan R.", "Hernquist, Lars E.", "Dumusque, Xavier", "Qi, Chunhua", "Oberg, Karin I.", "Gaetz, Terrance J.", "Plucinsky, Paul P.", "Eastman, Jason D.", "Johnson, John", "Oberg, Karin I.", "Romaine, Suzanne", "Hong, Jaesub", "Cotroneo, Vincenzo", "Bai, Xue-Ning", "Oberg, Karin I.", "Andrews, Sean M.", "Payne, Matthew John", "Holman, Matthew J.", "Alcock, Charles", "Schlichting, Hilke", "Osip, David J.", "Bianco, Federica", "Murray-Clay, Ruth", "Protopapas, Pavlos", "Nulsen, Paul", "Thompson, Ian", "Randall, Scott W.", "Andrade-Santos, Felipe", "Ashby, Matthew", "Bulbul, Esra", "Jones, Christine", "Wing, Joshua", "Wu, Jianfeng", "Caldwell, Nelson", "Pons, Estelle", "Elvis, Martin", "Meibom, Soren", "Kurucz, Robert L.", "Imara, Nia", "Smith, Howard", "Ashby, Matthew", "Hung, Chao-Ling", "Martinez-Galarza, Rafael", "Weiner, Aaron", "Zezas, Andreas", "Battersby, Cara", "Keto, Eric R.", "Zhang, Qizhou", "Lu, Xing", "Graham, Mark", "Patel, Nimesh A.", "Tolls, Volker", "Wells, Robert", "Lopez-Morales, Mercedes", "Bieryla, Allyson", "Canas, Caleb", "Latham, David W.", "Buchhave, Lars A.", "Berlind, Perry L.", "Calkins, Michael L.", "Esquerdo, Gilbert", "Johnson, John", "Ghezzi, Luan", "Johnson, John", "Dias do Nascimento, Jos\u00e9", "Irwin, Jonathan", "Charbonneau, David", "Dittmann, Jason", "Newton, Elisabeth R.", "Ashby, Matthew", "Davies, James E.", "Wu, Jianfeng", "Carter, Joshua A.", "Tian, Hui", "Cranmer, Steven R.", "Asgari-Targhi, Mahboubeh", "Patel, Nimesh A.", "Vrtilek, Saku", "Irwin, Jonathan", "Siemiginowska, Aneta", "Kashyap, Vinay", "Johnson, John", "Kozarev, Kamen A.", "Zegmott, Tarik Joseph", "Elvis, Martin", "Marshall, David William", "Sadeghpour, Hossein", "Slane, Patrick O.", "Battersby, Cara", "Goodman, Alyssa A.", "Caldwell, Nelson", "Auchettl, Katie", "Slane, Patrick O.", "Johnson, Christian I.", "Caldwell, Nelson", "McLeod, Brian A.", "Elvis, Martin", "Reid, Mark J.", "Wilner, David J.", "Jones, Christine", "Greenhill, Lincoln J.", "Caldwell, Nelson", "Brown, Warren R.", "Ashby, Matthew", "Schaefer, Laura", "Sasselov, Dimitar D.", "Dumusque, Xavier", "Eastman, Jason D.", "Espaillat, Catherine", "Wilner, David J.", "Battersby, Cara", "Damjanov, Ivana", "Jones, Christine", "Van Weeren, Reinout J.", "Santos, Felipe A.", "Van Weeren, Reinout J.", "Udomprasert, Patricia S.", "Goodman, Alyssa A.", "Sunbury, Susan", "Sadler, Philip M.", "Dussault, Mary E.", "Johnson, Erin", "Lotridge, Erin", "Jackson, Jonathan", "Constantin, Ana-Maria", "Latham, David W.", "Eastman, Jason D.", "Elvis, Martin", "Torres, Guillermo", "Kipping, David M.", "Fressin, Francois", "Newton, Elizabeth", "Kipping, David M.", "Torres, Guillermo", "Buchhave, Lars A.", "Antoniou, Vallia", "Willner, Steven P.", "Ashby, Matthew", "Smith, Howard Alan", "Fazio, Giovanni G.", "Holman, Matthew J.", "Ashby, Matthew", "Zhang, Jenna"]
+        "people": ["Lada, Charles J.", "Dunham, Michael", "Cargile, Phillip", "Newton, Elisabeth R.", "Irwin, Jonathan", "Charbonneau, David", "Dittmann, Jason", "Guenther, Hans Moritz", "Auchettl, Katie", "Li, Zequn", "Ashby, Matthew", "Hora, Joseph L.", "Plucinsky, Paul P.", "Torres, Guillermo", "Wolk, Scott J.", "Rose, Marvin", "Elvis, Martin", "Guillochon, James", "Green, Paul J.", "Morganson, Eric", "Asgari-Targhi, Mahboubeh", "Milisavljevic, Dan", "Poppenhaeger, Katja", "Genel, Shy", "Nelson, Dylan R.", "Hernquist, Lars E.", "Dumusque, Xavier", "Qi, Chunhua", "Oberg, Karin I.", "Gaetz, Terrance J.", "Plucinsky, Paul P.", "Eastman, Jason D.", "Johnson, John", "Oberg, Karin I.", "Romaine, Suzanne", "Hong, Jaesub", "Cotroneo, Vincenzo", "Bai, Xue-Ning", "Oberg, Karin I.", "Andrews, Sean M.", "Payne, Matthew John", "Holman, Matthew J.", "Alcock, Charles", "Schlichting, Hilke", "Osip, David J.", "Bianco, Federica", "Murray-Clay, Ruth", "Protopapas, Pavlos", "Nulsen, Paul", "Thompson, Ian", "Randall, Scott W.", "Andrade-Santos, Felipe", "Ashby, Matthew", "Bulbul, Esra", "Jones, Christine", "Wing, Joshua", "Wu, Jianfeng", "Caldwell, Nelson", "Pons, Estelle", "Elvis, Martin", "Meibom, Soren", "Kurucz, Robert L.", "Imara, Nia", "Smith, Howard", "Ashby, Matthew", "Hung, Chao-Ling", "Martinez-Galarza, Rafael", "Weiner, Aaron", "Zezas, Andreas", "Battersby, Cara", "Keto, Eric R.", "Zhang, Qizhou", "Lu, Xing", "Graham, Mark", "Patel, Nimesh A.", "Tolls, Volker", "Wells, Robert", "Lopez-Morales, Mercedes", "Bieryla, Allyson", "Canas, Caleb", "Latham, David W.", "Buchhave, Lars A.", "Berlind, Perry L.", "Calkins, Michael L.", "Esquerdo, Gilbert", "Johnson, John", "Ghezzi, Luan", "Johnson, John", "Dias do Nascimento, Jos\u00e9", "Irwin, Jonathan", "Charbonneau, David", "Dittmann, Jason", "Newton, Elisabeth R.", "Ashby, Matthew", "Davies, James E.", "Wu, Jianfeng", "Carter, Joshua A.", "Tian, Hui", "Cranmer, Steven R.", "Asgari-Targhi, Mahboubeh", "Patel, Nimesh A.", "Vrtilek, Saku", "Irwin, Jonathan", "Siemiginowska, Aneta", "Kashyap, Vinay", "Johnson, John", "Kozarev, Kamen A.", "Zegmott, Tarik Joseph", "Elvis, Martin", "Marshall, David William", "Sadeghpour, Hossein", "Slane, Patrick O.", "Battersby, Cara", "Goodman, Alyssa A.", "Caldwell, Nelson", "Auchettl, Katie", "Slane, Patrick O.", "Johnson, Christian I.", "Caldwell, Nelson", "McLeod, Brian A.", "Elvis, Martin", "Reid, Mark J.", "Wilner, David J.", "Jones, Christine", "Greenhill, Lincoln J.", "Caldwell, Nelson", "Brown, Warren R.", "Ashby, Matthew", "Schaefer, Laura", "Sasselov, Dimitar D.", "Dumusque, Xavier", "Eastman, Jason D.", "Espaillat, Catherine", "Wilner, David J.", "Battersby, Cara", "Damjanov, Ivana", "Jones, Christine", "Van Weeren, Reinout J.", "Santos, Felipe A.", "Van Weeren, Reinout J.", "Udomprasert, Patricia S.", "Goodman, Alyssa A.", "Sunbury, Susan", "Sadler, Philip M.", "Dussault, Mary E.", "Johnson, Erin", "Lotridge, Erin", "Jackson, Jonathan", "Constantin, Ana-Maria", "Latham, David W.", "Eastman, Jason D.", "Elvis, Martin", "Torres, Guillermo", "Kipping, David M.", "Fressin, Francois", "Newton, Elizabeth", "Kipping, David M.", "Torres, Guillermo", "Buchhave, Lars A.", "Antoniou, Vallia", "Willner, Steven P.", "Ashby, Matthew", "Smith, Howard Alan", "Fazio, Giovanni G.", "Holman, Matthew J.", "Ashby, Matthew", "Zhang, Jenna", "Wing, Joshua", "Lopez-Morales, Mercedes", "Kenyon, Scott", "Wilner, David J.", "Keto, Eric R.", "Lee, Katherine I.", "Dunham, Michael", "Myers, Philip C.", "Kristensen, Lars", "Goodman, Alyssa A.", "Lopez-Morales, Mercedes", "Kraus, Adam L.", "McBride, Cameron"]
     },
+
     "-111.8544245:40.731954": {
         "bibcodes": ["2015AAS...22525712B"],
         "institution": "Westminster College",
@@ -1039,11 +1040,7 @@
         "institution": "Astrophysics Group, Keele University",
         "people": ["McDonald, Iain", "Smalley, Barry", "van Loon, Jacco Th."]
     },
-    "20.3654338:52.6394843": {
-        "bibcodes": ["2015AAS...22525608D", "2015AAS...22525821P", "2015AAS...22525702V", "2015AAS...22530207N", "2015AAS...22514051W", "2015AAS...22513006R", "2015AAS...22525111H", "2015AAS...22520208C", "2015AAS...22525618F", "2015AAS...22514348B", "2015AAS...22521207C"],
-        "institution": "MPIA",
-        "people": ["Ferkinhoff, Carl", "Deacon, Niall", "Henning, Thomas", "Obermeier, Christian", "Ness, Melissa", "Rix, Hans-Walter", "von Braun, Kaspar", "Goldman, Bertrand", "Decarli, Roberto", "Walter, Fabian", "Wachter, Stefanie", "Fouesneau, Morgan", "Schinnerer, Eva", "Ford Schlafly, Edward", "Rix, Hans-Walter", "von Braun, Kaspar"]
-    },
+
     "-99.0816784:40.6993303": {
         "bibcodes": ["2015AAS...22514106S"],
         "institution": "Nebraska-Kearny",
@@ -1309,7 +1306,7 @@
         "institution": "MIT Haystack Observatory",
         "people": ["Fish, Vincent L.", "Lu, Rusen", "Doeleman, Sheperd", "Lonsdale, Colin J.", "Matthews, Lynn D."]
     },
-    "140.4712215:36.3658556": {
+    "-71.488214:42.6232863": {
         "bibcodes": ["2015AAS...22544912P", "2015AAS...22533818R", "2015AAS...22533819T", "2015AAS...22540801S", "2015AAS...22532001S", "2015AAS...22514132C", "2015AAS...22525907C", "2015AAS...22531601T", "2015AAS...22541403G", "2015AAS...22525801I", "2015AAS...22540207S", "2015AAS...22525712B", "2015AAS...22520706M", "2015AAS...22511507H", "2015AAS...22542903S", "2015AAS...22533838H", "2015AAS...22540203P", "2015AAS...22513715P"],
         "institution": "MIT",
         "people": ["Tegmark, Max", "Marshall, Herman L.", "Prescod-Weinstein, Chanda", "Hertzberg, Mark", "McDonald, Michael", "Huenemoerder, David", "Schlichting, Hilke", "Sanchis Ojeda, Roberto", "Winn, Joshua N.", "Berta-Thompson, Zachory K.", "Cahoy, Kerri Lynn", "Seager, Sara", "Guenther, Hans Moritz", "Winn, Joshua N.", "Person, Michael J.", "Bosh, Amanda S.", "Zuluaga, Carlos A.", "Kosiarek, Molly R.", "Castro, Daniel", "Figueroa-Feliciano, Enectali", "Seager, Sara", "Heilmann, Ralf K.", "Bruccoleri, Alexander R.", "Schattenburg, Mark L.", "Sanchis Ojeda, Roberto", "Winn, Joshua N.", "Rappaport, Saul A.", "Slatyer, Tracy"]
@@ -1449,7 +1446,7 @@
         "institution": "Western Illinois University",
         "people": ["Araya, Esteban"]
     },
-    "-79.974272:40.4533403": {
+    "18.0686, 59.3294": {
         "bibcodes": ["2015AAS...22514360B"],
         "institution": "Stockholm Observatory",
         "people": ["Hayes, Matthew"]
@@ -1889,7 +1886,7 @@
         "institution": "University of KwaZulu-Natal",
         "people": ["Hilton, Matt"]
     },
-    "150.8467243:-34.4807543": {
+    "-122.2581299:37.8693409": {
         "bibcodes": ["2015AAS...22520706M", "2015AAS...22533401W"],
         "institution": "UC, Berkeley",
         "people": ["White, Martin", "Petigura, Erik", "Marcy, Geoffrey W."]
@@ -1969,11 +1966,7 @@
         "institution": "Castilleja",
         "people": ["Cho, Christine Suhyun"]
     },
-    "24.9042208:-13.0050258": {
-        "bibcodes": ["2015AAS...22514343O"],
-        "institution": "Northwestern",
-        "people": ["Faucher-Giguere, Claude-Andre"]
-    },
+
     "-72.2886934:43.7044406": {
         "bibcodes": ["2015AAS...22530307H", "2015AAS...22520405H", "2015AAS...22525218G", "2015AAS...22514035L", "2015AAS...22525110S", "2015AAS...22514024F", "2015AAS...22514002B"],
         "institution": "Dartmouth College",
@@ -2194,7 +2187,7 @@
         "institution": "Florida Institute for Technology",
         "people": ["Ragozzine, Darin"]
     },
-    "-122.2797647:37.8706401": {
+    "-122.2581299:37.8693409": {
         "bibcodes": ["2015AAS...22514039G", "2015AAS...22545202W"],
         "institution": "University of California at Berkeley",
         "people": ["Wieland, Christopher AM", "Madigan, Ann-Marie", "Graham, Melissa Lynn", "Weiss, Lauren M.", "Filippenko, Alex"]
@@ -2414,7 +2407,7 @@
         "institution": "Long Island University",
         "people": ["Liebling, Steven L."]
     },
-    "27.9605609:-26.2525808": {
+    "-110.9264:32.2217": {
         "bibcodes": ["2015AAS...22533640J", "2015AAS...22525708V", "2015AAS...22524306S", "2015AAS...22513903S", "2015AAS...22534001C", "2015AAS...22522802W", "2015AAS...22514047H", "2015AAS...22522301S", "2015AAS...22534003F", "2015AAS...22534518H", "2015AAS...22531304S", "2015AAS...22525702V", "2015AAS...22531906G", "2015AAS...22530206S", "2015AAS...22511304M", "2015AAS...22514016R", "2015AAS...22524301W", "2015AAS...22513902D", "2015AAS...22525709W", "2015AAS...22514003W", "2015AAS...22514046F", "2015AAS...22533641Y", "2015AAS...22514421C", "2015AAS...22534914B", "2015AAS...22514048M", "2015AAS...22530903M", "2015AAS...22525703B"],
         "institution": "NOAO",
         "people": ["Shaw, Richard A.", "Matheson, Thomas", "Narayan, Gautham", "Olsen, Knut A.", "Narayan, Gautham", "Smith, Verne V.", "Hinkle, Kenneth H.", "Joyce, Richard R.", "Najita, Joan R.", "Shaw, Richard A.", "Smith, Verne V.", "Ridgway, Stephen T.", "Smith, Verne V.", "Smith, Verne V.", "Smith, Verne V.", "Norman, Dara J.", "Rajagopal, Jayadev", "Hinkle, Kenneth H.", "Joyce, Richard R.", "Dickinson, Mark", "Shaw, R. A.", "Allen, Lori", "Joyce, Richard R.", "Matheson, Thomas", "Shaw, Richard A.", "Walker, Constance E.", "Walker, Constance E.", "Sparks, Robert T.", "Pompea, Stephen M.", "Walker, Constance E.", "Ridgway, Stephen T.", "Lauer, Tod R.", "Salyk, Colette", "Najita, Joan R.", "Chandrasekharan, Srinivasan", "Ridgway, Stephen T.", "Cunha, Katia M. L.", "Chandrasekharan, Srinivasan", "Ridgway, Stephen T."]
@@ -2575,10 +2568,11 @@
         "people": ["Johnson, Ryan", "Johnson, Ryan", "Thorsen, Tessa J.", "Hinds, Andre J."]
     },
     "-87.675267:42.0564594": {
-        "bibcodes": ["2015AAS...22510705S", "2015AAS...22525727E", "2015AAS...22525734L", "2015AAS...22511503K", "2015AAS...22512807F", "2015AAS...22510704C", "2015AAS...22532809G", "2015AAS...22523101S", "2015AAS...22514129D", "2015AAS...22514428M", "2015AAS...22534215G", "2015AAS...22510505S", "2015AAS...22534105S"],
+        "bibcodes": ["2015AAS...22510705S", "2015AAS...22525727E", "2015AAS...22525734L", "2015AAS...22511503K", "2015AAS...22512807F", "2015AAS...22510704C", "2015AAS...22532809G", "2015AAS...22523101S", "2015AAS...22514129D", "2015AAS...22514428M", "2015AAS...22534215G", "2015AAS...22510505S", "2015AAS...22534105S","2015AAS...22514343O"],
         "institution": "Northwestern University",
-        "people": ["Ulmer, Melville P.", "Meyer, David M.", "Dirks, Cody", "Steffen, Jason H.", "Hwang, Jason A.", "Hansen, Christopher James", "Schwartz, Joel Colin", "Kaib, Nathan A.", "Cowan, Nicolas B.", "Littenberg, Tyson", "Fissel, Laura Marion", "Ashton, Peter", "Matthews, Tristan", "Novak, Giles", "Pereira Santos, F\u00e1bio", "Dirks, Cody", "Meyer, David M.", "Faucher-Giguere, Claude-Andre", "Schwartz, Joel Colin", "Ellinger, Emily", "Steffen, Jason H.", "Lee, Daeyoung", "Steffen, Jason H.", "Geller, Aaron M.", "Ashton, Peter", "Fissel, Laura M.", "Novak, Giles", "Santos, Fabio P."]
-    },
+        "people": ["Ulmer, Melville P.", "Meyer, David M.", "Dirks, Cody", "Steffen, Jason H.", "Hwang, Jason A.", "Hansen, Christopher James", "Schwartz, Joel Colin", "Kaib, Nathan A.", "Cowan, Nicolas B.", "Littenberg, Tyson", "Fissel, Laura Marion", "Ashton, Peter", "Matthews, Tristan", "Novak, Giles", "Pereira Santos, F\u00e1bio", "Dirks, Cody", "Meyer, David M.", "Faucher-Giguere, Claude-Andre", "Schwartz, Joel Colin", "Ellinger, Emily", "Steffen, Jason H.", "Lee, Daeyoung", "Steffen, Jason H.", "Geller, Aaron M.", "Ashton, Peter", "Fissel, Laura M.", "Novak, Giles", "Santos, Fabio P.", "Faucher-Giguere, Claude-Andre"]
+    },    
+
     "-84.5149504:39.1329219": {
         "bibcodes": ["2015AAS...22534912S", "2015AAS...22534913W"],
         "institution": "University of Cincinnati",
@@ -2749,11 +2743,7 @@
         "institution": "Raytheon Company",
         "people": ["Dolphin, Andrew E.", "Dolphin, Andrew E.", "Dolphin, Andrew E."]
     },
-    "-106.0855967:36.0030702": {
-        "bibcodes": ["2015AAS...22532308C", "2015AAS...22525221G", "2015AAS...22525702V", "2015AAS...22531302H", "2015AAS...22514133D", "2015AAS...22525605L", "2015AAS...22525703B", "2015AAS...22541906S"],
-        "institution": "CfA",
-        "people": ["Wing, Joshua", "Lopez-Morales, Mercedes", "Kenyon, Scott", "Wilner, David J.", "Keto, Eric R.", "Lee, Katherine I.", "Dunham, Michael", "Myers, Philip C.", "Kristensen, Lars", "Goodman, Alyssa A.", "Lopez-Morales, Mercedes", "Kraus, Adam L.", "McBride, Cameron"]
-    },
+  
     "-83.6300826:41.3797788": {
         "bibcodes": ["2015AAS...22526002L"],
         "institution": "Bowling Green State University",
@@ -3310,10 +3300,11 @@
         "people": ["Gulbis, Amanda A. S."]
     },
     "7.0698919:50.730124": {
-        "bibcodes": ["2015AAS...22534615F", "2015AAS...22511005B", "2015AAS...22521107F", "2015AAS...22512705H"],
+        "bibcodes": ["2015AAS...22525608D", "2015AAS...22525821P", "2015AAS...22525702V", "2015AAS...22530207N", "2015AAS...22514051W", "2015AAS...22513006R", "2015AAS...22525111H", "2015AAS...22520208C", "2015AAS...22525618F", "2015AAS...22514348B", "2015AAS...22521207C","2015AAS...22534615F", "2015AAS...22511005B", "2015AAS...22521107F", "2015AAS...22512705H"],
         "institution": "Max-Planck-Institute for Astronomy",
-        "people": ["Kramer, Michael", "Mao, Sui Ann", "Schnitzeler, Dominic", "Deen, Casey", "Brandner, Wolfgang", "Henning, Thomas", "van der Wel, Arjen", "Sesar, Branimir", "Urquhart, James S.", "Weigelt, Gerd", "Meidt, Sharon", "Schinnerer, Eva", "Querejeta, Miguel", "Neumayer, Nadine", "Kauffmann, Jens", "Pillai, Thushara", "Kruijssen, Diederik", "Rodler, Florian", "Kramer, Michael", "Caballero, Nicolas", "Zschaechner, Laura K.", "Walter, Fabian", "Walter, Fabian", "Ford Schlafly, Edward", "Hoard, Donald W.", "Menten, Karl", "G\u00fcsten, Rolf", "Weiss, Axel", "Walter, Fabian"]
+        "people": ["Ferkinhoff, Carl", "Deacon, Niall", "Henning, Thomas", "Obermeier, Christian", "Ness, Melissa", "Rix, Hans-Walter", "von Braun, Kaspar", "Goldman, Bertrand", "Decarli, Roberto", "Walter, Fabian", "Wachter, Stefanie", "Fouesneau, Morgan", "Schinnerer, Eva", "Ford Schlafly, Edward", "Rix, Hans-Walter", "von Braun, Kaspar","Kramer, Michael", "Mao, Sui Ann", "Schnitzeler, Dominic", "Deen, Casey", "Brandner, Wolfgang", "Henning, Thomas", "van der Wel, Arjen", "Sesar, Branimir", "Urquhart, James S.", "Weigelt, Gerd", "Meidt, Sharon", "Schinnerer, Eva", "Querejeta, Miguel", "Neumayer, Nadine", "Kauffmann, Jens", "Pillai, Thushara", "Kruijssen, Diederik", "Rodler, Florian", "Kramer, Michael", "Caballero, Nicolas", "Zschaechner, Laura K.", "Walter, Fabian", "Walter, Fabian", "Ford Schlafly, Edward", "Hoard, Donald W.", "Menten, Karl", "G\u00fcsten, Rolf", "Weiss, Axel", "Walter, Fabian"]
     },
+ 
     "23.3675404:42.6769379": {
         "bibcodes": ["2015AAS...22534412S"],
         "institution": "Space Research and Tech. Institute",
@@ -3369,9 +3360,9 @@
         "institution": "Washington University in St. Louis",
         "people": ["Kreisch, Christina", "Hoormann, Janie", "Krawczynski, Henric", "Endsley, Ryan"]
     },
-    "72.8:40.53": {
+    "-83.0145:40": {
         "bibcodes": ["2015AAS...22531903Z", "2015AAS...22544608M"],
-        "institution": "OSU",
+        "institution": "Ohio State",
         "people": ["Thompson, Todd A.", "Johnson, Jennifer", "Sellgren, Kristen"]
     },
     "116.3850371:40.0043176": {
@@ -3964,7 +3955,7 @@
         "institution": "Austin College",
         "people": ["Whelan, David G.", "Whelan, David G."]
     },
-    "15.2897099:-4.3180049": {
+    "-110.9501094:32.2318851": {
         "bibcodes": ["2015AAS...22534921S"],
         "institution": "LPL",
         "people": ["Showman, Adam P.", "Christensen, Eric J.", "Larson, Stephen M.", "Barman, Travis"]

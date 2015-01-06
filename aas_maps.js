@@ -1,73 +1,154 @@
-    var debug = true;
+   /* warning, very ugly,  if we ever use this again i will fix this gross looking code */
 
-    var width = 1000;
-    height = 500;
+    var debug = false;
+
+    var width = 1100;
+    height = 700;
+
+    var looping = false;
+
+    var usaJson;
 
 
-  //  build usa map
-    (function(){
+    //  build usa map
+    (function() {
 
-    var projection = d3.geo.albersUsa();
+        //Width and height
+    
+            //Define map projection
+            var projection = d3.geo.albersUsa()
+                                   .translate([width/2, height/2.4])
+                                   .scale([1200]);
+            //Define path generator
+            var path = d3.geo.path()
+                             .projection(projection);
+            //Create SVG element
+            var svg = d3.select("svg")
+                       
+            //Load in GeoJSON data
+            d3.json("us_states.json", function(json) {
+                
+                //Bind data and create one path per GeoJSON feature
+                svg.selectAll("path")
+                   .data(json.features)
+                   .enter()
+                   .append("path")
+                   .attr("d", path);
+        
 
-    var path = d3.geo.path(projection);
+            d3.json("aas_people.json", function(error, json) {
+                var json = _.pairs(json);
 
-    var svg = d3.select(".usa svg").attr("height", height).attr("width", width);
+                var lengths = _.map(json, function(j) {
+                    return j[1].people.length
+                });
 
-    d3.json("us_states.json", function(error, json){
+                var radiusScale = d3.scale.sqrt().domain([d3.min(lengths), d3.max(lengths)]).range([2, 20]);
 
-        svg.selectAll("path")
-               .data(json.features)
-               .enter()
-               .append("path")
-               .attr("d", path);
+                var d3description = d3.select(".usa .description");
 
-    d3.json("aas_people.json", function(error, json){
-       var json =  _.pairs(json);
+                //sort data
+                json.sort(function(a, b) {
+                    return b[1].people.length - a[1].people.length;
+                });
+                //filter to us only
+                usaJson = json.filter(function(j) {
+                    var longLat = j[0].split(":");
+                    var p = projection([parseFloat(longLat[0]), parseFloat(longLat[1]), ])
+                    if (p) {
+                        return true
+                    }
+                });
 
-       var lengths = _.map(json, function(j){
-        return j[1].people.length
-       });
 
-       var radiusScale = d3.scale.sqrt().domain([d3.min(lengths), d3.max(lengths)]).range([1, 20]);
+                svg.selectAll("circle")
+                    .data(usaJson)
+                    .enter()
+                    .append("circle")
+                    .classed("institution-circle", true)
+                    .attr("r", function(d) {
+                        return radiusScale(d[1].people.length);
+                    })
+                    .attr("transform", function(d) {
+                        var longLat = d[0].split(":");
+                        return "translate(" + projection([parseFloat(longLat[0]), parseFloat(longLat[1])]) + ")";
+                    })
+                    .attr("opacity", 0)
+                    .transition()
+                    .delay(function(d, i) {
+                        return i * 10
+                    })
+                    .attr("opacity", 1);
 
-       var d3description = d3.select(".usa .description");
 
-       //sort data
-       json.sort(function(a,b){
-        return b[1].people.length - a[1].people.length;
-       });
-      //filter to us only
-       json = json.filter(function(j){
-          var longLat = j[0].split(":");
-          var p = projection([parseFloat(longLat[0]), parseFloat(longLat[1]),])
-        if (p){
-          return true
-        }
-       });
+     var loopId,
+        circlesLength = usaJson.length;
 
-        svg.selectAll("circle")
-            .data(json)
-            .enter()
-            .append("circle")
-            .classed("institution-circle", true)
-            .attr("r", function(d){
-                return radiusScale(d[1].people.length);
-            })
-            .attr("fill", "hsla(232, 100%, 65%, 0.81)")
-            .attr("transform", function(d) {
-                var longLat = d[0].split(":");
-                return "translate(" + projection([parseFloat(longLat[0]), parseFloat(longLat[1]),]) + ")";
+        d3.select(".loop").on("click", function(){
+
+            function randomHighlight(){
+                var randomIndex = Math.floor(Math.random() * circlesLength);
+                var selected = d3.selectAll(".usa circle").classed("selected", false)
+                .filter(function(d,i){
+                    return (i == randomIndex);
+                }).classed("selected", true)
+                .transition()
+                .duration(1000)
+                .attr("r", function(d) {
+                        return radiusScale(d3.max(lengths)*2.5);
+                    })
+                .transition()
+                .duration(1000)
+                .attr("r", function(d) {
+                        return radiusScale(d[1].people.length);
+                    });     
+
+               var d = selected[0][0].__data__;
+
+                var d3description = d3.select(".usa .description div");
+
+                var html = "<h3>" + d[1]["institution"] + " (" + _.uniq(d[1]["people"]).length + ")</h3>"
+                html += "<ul class='list-unstyled'>"
+                var sortedPeople = _.uniq(d[1]["people"]).sort();
+                _.each(sortedPeople, function(p) {
+
+                    html += "<li>" + p + "</li>"
+                })
+
+                html += "</ul>"
+                d3description.html(html);
+
+            }
+
+            if (looping){
+
+                looping = false;
+
+                clearInterval(loopId);
+
+                d3.select(".loop").text("loop").classed("btn-danger", false);
+
+
+            }
+            else {
+                looping = true;
+
+                loopId = setInterval(randomHighlight, 4000);
+
+                d3.select(".loop").text("stop loop").classed("btn-danger", true);
+
+            }
+        })
+
+
             });
-
         });
-    });
 
     })();
 
 
     //build world map
     (function() {
-
 
         var width = 1000,
             height = 500;
@@ -114,7 +195,7 @@
                     return j[1].people.length
                 });
 
-                var radiusScale = d3.scale.sqrt().domain([d3.min(lengths), d3.max(lengths)]).range([1, 20]);
+                var radiusScale = d3.scale.sqrt().domain([d3.min(lengths), d3.max(lengths)]).range([2, 15]);
 
                 //sort data
                 json.sort(function(a, b) {
@@ -129,7 +210,6 @@
                     .attr("r", function(d) {
                         return radiusScale(d[1].people.length);
                     })
-                    .attr("fill", "hsla(232, 100%, 65%, 0.81)")
                     .attr("transform", function(d) {
                         var longLat = d[0].split(":");
                         return "translate(" + projection([parseFloat(longLat[0]), parseFloat(longLat[1]), ]) + ")";
@@ -144,16 +224,14 @@
 
     //finally, add delegated event listeners
 
-
     (function() {
 
+       
 
         var svgs = d3.selectAll("svg");
 
         svgs.each(function(svg) {
             this.addEventListener("click", function(e) {
-
-              debugger;
 
                 if (e.target.tagName !== "circle") {
                     return
@@ -161,13 +239,13 @@
 
                 var d = e.target.__data__;
 
-                var baseLink = "http://ui.adslabs.org/#search/q=bibcode%3A2015AAS...225**"
+                 var baseLink = "http://ui.adslabs.org/#search/q="
                 _.each(d[1]["people"], function(item, index) {
-                    d[1]["people"][index] = encodeURIComponent(d[1]["people"]);
+                    d[1]["people"][index] = encodeURIComponent(d[1]["people"][index]);
                 });
-                var authors = "%22" + d[1]["people"].join("%2C+OR+%2C") + "%22";
+                var bibs = d[1]["bibcodes"].join("+OR+");
 
-                window.location.href = baseLink + "+AND+author%3A(" + authors + ")";
+                window.location.href = baseLink + "bibcode%3A(" + bibs + ")";
 
             });
         });
@@ -181,7 +259,7 @@
 
                 var d = e.target.__data__;
 
-                var d3description = d3.select(this.parentElement.parentElement.querySelector(".description"));
+                var d3description = d3.select(this.parentElement.parentElement.querySelector(".description div"));
 
                 var html = "<h3>" + d[1]["institution"] + " (" + _.uniq(d[1]["people"]).length + ")</h3>"
                 html += "<ul class='list-unstyled'>"
@@ -194,8 +272,8 @@
                 html += "</ul>"
                 d3description.html(html);
 
-                if (debug){
-                  console.log(d);
+                if (debug) {
+                    console.log(d);
                 }
             });
 
