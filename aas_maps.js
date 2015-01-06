@@ -26,7 +26,7 @@
             var svg = d3.select("svg")
                        
             //Load in GeoJSON data
-            d3.json("us_states.json", function(json) {
+            d3.json("json/us_states.json", function(json) {
                 
                 //Bind data and create one path per GeoJSON feature
                 svg.selectAll("path")
@@ -36,7 +36,7 @@
                    .attr("d", path);
         
 
-            d3.json("aas_people.json", function(error, json) {
+            d3.json("json/aas_people.json", function(error, json) {
                 var json = _.pairs(json);
 
                 var lengths = _.map(json, function(j) {
@@ -172,7 +172,7 @@
             .attr("class", "graticule")
             .attr("d", path);
 
-        d3.json("simplified_world.json", function(error, world) {
+        d3.json("json/simplified_world.json", function(error, world) {
 
             if (error) {
                 console.log("Error:", error);
@@ -190,7 +190,7 @@
                 .attr("class", "boundary")
                 .attr("d", path);
 
-            d3.json("aas_people.json", function(error, json) {
+            d3.json("json/aas_people.json", function(error, json) {
                 var json = _.pairs(json);
 
                 var lengths = _.map(json, function(j) {
