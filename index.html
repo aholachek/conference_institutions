@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Page Template</title>
+
+<style>
+    .institution-circle {
+
+          stroke-width: .5px;
+          fill :"hsla(232, 100%, 65%, 0.81)";
+          stroke : white;
+
+    }
+
+    .description {
+      overflow: auto;
+      max-height: 500px;
+    }
+
+    circle {
+      cursor : pointer;
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.css">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- cdns -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.3.0/backbone.marionette.js"></script>
+ -->
+
+    </head>
+    <body>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>AAS 225 Meeting Abstracts</h2>
+        <p>Click on a circle to view abstracts from people from that institution in ADS.</p>
+      </div>
+    </div>
+      <div class="row usa">
+        <div class="col-sm-10">
+          <svg width="1000", height="500"></svg>      
+        </div>
+        <div class="col-sm-2 description">    
+        </div>
+      </div>
+      <div class="row world">
+
+        <div class="col-sm-10">
+           <svg width="1000", height="500"></svg>      
+        </div>
+        <div class="col-sm-2 description">    
+        </div>
+      </div>
+    </div>
+
+
+    <script src="aas_maps.js"></script>
+
+    </body>
+</html>
